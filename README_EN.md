@@ -2,9 +2,9 @@
 
 <h1 align="center">OSPTEK 2.95″ TFT 480×854 (ST7701 · MIPI)</h1>
 
-<p align="center"><b>TFT / IPS module · MIPI · ST7701</b></p>
+<p align="center"><b>TFT module · MIPI · ST7701 · Multi-Version Index</b></p>
 
-<p align="center"><a href="./README.md">简体中文</a> | English</p>
+<p align="center">English | <a href="./README.md">简体中文</a></p>
 
 <p align="center">
   <img alt="Size: 2.95 inch" src="https://img.shields.io/badge/Size-2.95%22-3498DB?style=flat-square" />
@@ -13,86 +13,61 @@
   <img alt="Driver: ST7701" src="https://img.shields.io/badge/Driver-ST7701-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 2.95″ 480×854 TFT MIPI module (ST7701) product image" src="./images/product.png" width="640" /></p>
-
 ## Contents
 
-- [Overview](#overview)
-- [Specifications](#specifications)
-- [Sample projects](#sample-projects)
-- [Repository layout](#repository-layout)
-- [Resources](#resources)
-- [Buy](#buy)
+- [About](#about)
+- [Versions](#versions)
+- [YDP295B001-V1](#ydp295b001-v1)
+- [How to Switch Branches](#how-to-switch-branches)
+- [Where to Buy](#where-to-buy)
 - [Support](#support)
 
 ---
 
-## Overview
+## About
 
-OSPTEK **2.95″ 480×854 TFT (IPS)** is a **MIPI** color display module driven by **ST7701**. Suited to handheld devices, portrait instruments, and compact HMI.
+This repository holds materials for the **2.95″ 480×854 TFT (MIPI · ST7701)** module family.
 
-Spec ID (repository name): `2.95-tft-480x854-mipi-st7701`
+**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
 
-Current module version: **YDP295B001-V1**. Electrical and mechanical details follow [`docs/YDP_295_B001_V1_f812644e0f.pdf`](./docs/YDP_295_B001_V1_f812644e0f.pdf).
+Repo id: `2.95-tft-480x854-mipi-st7701`
 
-## Specifications
+---
 
-| Item | Spec |
-| ---- | ---- |
-| Size | 2.95 inch |
-| Type | TFT / IPS (color) |
-| Resolution | 480×854 |
-| Interface | MIPI |
-| Driver IC | ST7701 |
+## Versions
 
-> Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
+| Version | Image | Notes |
+| ------- | ----- | ----- |
+| YDP295B001-V1 | <img alt="YDP295B001-V1" src="./images/YDP295B001-V1.png" width="120" /> | [Details](#ydp295b001-v1) |
 
-## Sample projects
+---
 
-| Description | Path |
-| ---- | ---- |
-| ESP32-P4 · ST7701 MIPI + esp-lvgl-port / LVGL9 | [`examples/P4-IDF_ST7701-MIPI_ESP-LVGL-PORT_V9/`](./examples/P4-IDF_ST7701-MIPI_ESP-LVGL-PORT_V9/) |
-| ESP32-P4 · ST7701 MIPI DSI + LVGL | [`examples/st7701s_mipi_dsi/`](./examples/st7701s_mipi_dsi/) |
+## YDP295B001-V1
 
-## Repository layout
+<p align="center"><img alt="YDP295B001-V1" src="./images/YDP295B001-V1.png" width="320" /></p>
 
-```text
-2.95-tft-480x854-mipi-st7701/
-├── README.md
-├── README_EN.md
-├── MODULE_VERSION.md
-├── LICENSE
-├── images/          # README assets
-├── docs/            # datasheets, init, etc.
-└── examples/        # sample projects
-```
+**Notes:** Module.
 
-## Resources
+---
 
-### Product files
+## How to Switch Branches
 
-| Resource | Link |
-| ---- | ---- |
-| Product datasheet (YDP295B001-V1) | [`docs/YDP_295_B001_V1_f812644e0f.pdf`](./docs/YDP_295_B001_V1_f812644e0f.pdf) |
-| Driver IC datasheet (ST7701S) | [`docs/ST_7701_S_SPEC_V1_3_f82b940377.pdf`](./docs/ST_7701_S_SPEC_V1_3_f82b940377.pdf) |
-| Init sequence (C source) | [`docs/ST7701S+BOE2.95-2L.c`](./docs/ST7701S%2BBOE2.95-2L.c) |
-| Init command table (`st7701s.h`) | [`docs/st7701s.h`](./docs/st7701s.h) |
-| RGB timing parameters | [`docs/RGB时序参数.png`](./docs/RGB%E6%97%B6%E5%BA%8F%E5%8F%82%E6%95%B0.png) |
+Full product materials are on each **version branch**; `main` is navigation only.
 
-### Samples
+- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
+- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
 
-- [ESP32-P4 ST7701 MIPI + LVGL9](./examples/P4-IDF_ST7701-MIPI_ESP-LVGL-PORT_V9/)
-- [ESP32-P4 ST7701 MIPI DSI + LVGL](./examples/st7701s_mipi_dsi/)
+---
 
-## Buy
+## Where to Buy
 
 <p align="center">
-  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress store" src="https://img.shields.io/badge/AliExpress-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress Official Store" src="https://img.shields.io/badge/AliExpress-Official_Store-E62E04?style=for-the-badge&logo=aliexpress&logoColor=white" /></a>
   &nbsp;&nbsp;
-  <a href="https://shop110742373.taobao.com/"><img alt="Taobao store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://shop110742373.taobao.com/"><img alt="Taobao Official Store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
 </p>
 
-**Overseas (AliExpress)**
+**International (AliExpress)**
 
 - Store: [OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
 
@@ -100,13 +75,15 @@ Current module version: **YDP295B001-V1**. Electrical and mechanical details fol
 
 - Store: [鱼鹰光电工厂店](https://shop110742373.taobao.com/)
 
+---
+
 ## Support
 
-- Technical support / product inquiry: <luyu@osptek.com>
-- QQ group: **985881096**
+- Technical Support / Sales: <luyu@osptek.com>
+- QQ Technical Group: **985881096**
 - Website: <https://osptek.com/>
-- Feel free to open an Issue in this repository with any questions
+- Feel free to open an Issue in this repository if you have any questions
 
 ---
 
-<p align="center"><sub>© 2026 OSPTEK · Materials in this repository are licensed under CC BY 4.0</sub></p>
+<p align="center"><sub>© 2026 OSPTEK · Licensed under CC BY 4.0</sub></p>
