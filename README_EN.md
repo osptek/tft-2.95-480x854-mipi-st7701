@@ -46,8 +46,6 @@ Repo id: `2.95-tft-480x854-mipi-st7701`
 
 <p align="center"><img alt="YDP295B001-V1" src="./images/YDP295B001-V1.png" width="320" /></p>
 
-**Notes:** Module.
-
 ---
 
 ## How to Switch Branches
