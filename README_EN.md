@@ -18,7 +18,6 @@
 - [About](#about)
 - [Versions](#versions)
 - [YDP295B001-V1](#ydp295b001-v1)
-- [How to Switch Branches](#how-to-switch-branches)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -28,7 +27,7 @@
 
 This repository holds materials for the **2.95″ 480×854 TFT (MIPI · ST7701)** module family.
 
-**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
+The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
 Repo id: `2.95-tft-480x854-mipi-st7701`
 
@@ -36,24 +35,17 @@ Repo id: `2.95-tft-480x854-mipi-st7701`
 
 ## Versions
 
-| Version | Image | Notes |
-| ------- | ----- | ----- |
-| YDP295B001-V1 | <img alt="YDP295B001-V1" src="./images/YDP295B001-V1.png" width="120" /> | [Details](#ydp295b001-v1) |
+| Version | Image | Summary | Full docs |
+| ------- | ----- | ------- | --------- |
+| YDP295B001-V1 | <img alt="YDP295B001-V1" src="./versions/YDP295B001-V1/images/product.png" width="120" /> | [Summary](#ydp295b001-v1) | [Full docs](./versions/YDP295B001-V1/) |
 
 ---
 
 ## YDP295B001-V1
 
-<p align="center"><img alt="YDP295B001-V1" src="./images/YDP295B001-V1.png" width="320" /></p>
+<p align="center"><img alt="YDP295B001-V1" src="./versions/YDP295B001-V1/images/product.png" width="320" /></p>
 
----
-
-## How to Switch Branches
-
-Full product materials are on each **version branch**; `main` is navigation only.
-
-- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
-- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
+Full product page, datasheets, and examples: [versions/YDP295B001-V1/](./versions/YDP295B001-V1/)
 
 ---
 
