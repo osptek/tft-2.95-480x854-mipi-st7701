@@ -29,7 +29,7 @@ This repository holds materials for the **2.95″ 480×854 TFT (MIPI · ST7701)*
 
 The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
-Repo id: `2.95-tft-480x854-mipi-st7701`
+Repo id: `tft-2.95-480x854-mipi-st7701`
 
 ---
 

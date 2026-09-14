@@ -31,7 +31,7 @@
 
 OSPTEK **2.95″ 480×854 TFT (IPS)** is a **MIPI** color display module driven by **ST7701**. Suited to handheld devices, portrait instruments, and compact HMI.
 
-Spec ID (repository name): `2.95-tft-480x854-mipi-st7701`
+Spec ID (repository name): `tft-2.95-480x854-mipi-st7701`
 
 Current module version: **YDP295B001-V1**. Electrical and mechanical details follow [`docs/YDP_295_B001_V1_f812644e0f.pdf`](./docs/YDP_295_B001_V1_f812644e0f.pdf).
 
@@ -57,7 +57,7 @@ Current module version: **YDP295B001-V1**. Electrical and mechanical details fol
 ## Repository layout
 
 ```text
-2.95-tft-480x854-mipi-st7701/                                # repo root (nav: ../../README_EN.md)
+tft-2.95-480x854-mipi-st7701/                                # repo root (nav: ../../README_EN.md)
 └── versions/
     └── YDP295B001-V1/                                # full materials for this part number
         ├── README.md
