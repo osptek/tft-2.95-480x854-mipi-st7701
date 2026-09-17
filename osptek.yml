@@ -1,0 +1,14 @@
+id: tft-2.95-480x854-mipi-st7701
+category: displays
+
+size: "2.95"
+panel: tft
+resolution: 480x854
+interface: [mipi]
+shape: rect
+
+versions:
+  - id: YDP295B001-V1
+    driver: ST7701S
+    touch: none
+    note: none
