@@ -6,6 +6,7 @@ panel: tft
 resolution: 480x854
 interface: [mipi]
 shape: rect
+corner: sharp
 
 versions:
   - id: YDP295B001-V1
