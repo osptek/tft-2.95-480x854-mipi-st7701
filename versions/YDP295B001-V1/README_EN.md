@@ -52,6 +52,8 @@ Current module version: **YDP295B001-V1**. Electrical and mechanical details fol
 | Description | Path |
 | ---- | ---- |
 | ESP32-P4 · ST7701 MIPI + esp-lvgl-port / LVGL9 | [`examples/P4-IDF_ST7701-MIPI_ESP-LVGL-PORT_V9/`](./examples/P4-IDF_ST7701-MIPI_ESP-LVGL-PORT_V9/) |
+| ESP32-P4 · ESP-IDF 5.5 · ST7701 MIPI + LVGL 9 | [`examples/esp32p4-idf5_st7701-mipi_lvgl9/`](./examples/esp32p4-idf5_st7701-mipi_lvgl9/) |
+| ESP32-P4 v3.2 · ESP-IDF 6.1 · ST7701 MIPI + LVGL 9 | [`examples/esp32p4-idf6_st7701-mipi_lvgl9/`](./examples/esp32p4-idf6_st7701-mipi_lvgl9/) |
 | ESP32-P4 · ST7701 MIPI DSI + LVGL | [`examples/st7701s_mipi_dsi/`](./examples/st7701s_mipi_dsi/) |
 
 ## Repository layout
@@ -82,6 +84,8 @@ tft-2.95-480x854-mipi-st7701/                                # repo root (nav: .
 ### Samples
 
 - [ESP32-P4 ST7701 MIPI + LVGL9](./examples/P4-IDF_ST7701-MIPI_ESP-LVGL-PORT_V9/)
+- [ESP32-P4 · ESP-IDF 5.5 · ST7701 MIPI + LVGL 9](./examples/esp32p4-idf5_st7701-mipi_lvgl9/)
+- [ESP32-P4 v3.2 · ESP-IDF 6.1 · ST7701 MIPI + LVGL 9](./examples/esp32p4-idf6_st7701-mipi_lvgl9/)
 - [ESP32-P4 ST7701 MIPI DSI + LVGL](./examples/st7701s_mipi_dsi/)
 
 ## Buy

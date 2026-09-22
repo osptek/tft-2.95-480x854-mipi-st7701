@@ -52,6 +52,8 @@ OSPTEK **2.95 寸 480×854 TFT（IPS）** 是一款 **MIPI** 接口彩色显示�
 | 说明 | 路径 |
 | ---- | ---- |
 | ESP32-P4 · ST7701 MIPI + esp-lvgl-port / LVGL9 | [`examples/P4-IDF_ST7701-MIPI_ESP-LVGL-PORT_V9/`](./examples/P4-IDF_ST7701-MIPI_ESP-LVGL-PORT_V9/) |
+| ESP32-P4 · ESP-IDF 5.5 · ST7701 MIPI + LVGL 9 | [`examples/esp32p4-idf5_st7701-mipi_lvgl9/`](./examples/esp32p4-idf5_st7701-mipi_lvgl9/) |
+| ESP32-P4 v3.2 · ESP-IDF 6.1 · ST7701 MIPI + LVGL 9 | [`examples/esp32p4-idf6_st7701-mipi_lvgl9/`](./examples/esp32p4-idf6_st7701-mipi_lvgl9/) |
 | ESP32-P4 · ST7701 MIPI DSI + LVGL | [`examples/st7701s_mipi_dsi/`](./examples/st7701s_mipi_dsi/) |
 
 ## 仓库结构
@@ -82,6 +84,8 @@ tft-2.95-480x854-mipi-st7701/                                # 仓库根（导�
 ### 示例工程
 
 - [ESP32-P4 ST7701 MIPI + LVGL9](./examples/P4-IDF_ST7701-MIPI_ESP-LVGL-PORT_V9/)
+- [ESP32-P4 · ESP-IDF 5.5 · ST7701 MIPI + LVGL 9](./examples/esp32p4-idf5_st7701-mipi_lvgl9/)
+- [ESP32-P4 v3.2 · ESP-IDF 6.1 · ST7701 MIPI + LVGL 9](./examples/esp32p4-idf6_st7701-mipi_lvgl9/)
 - [ESP32-P4 ST7701 MIPI DSI + LVGL](./examples/st7701s_mipi_dsi/)
 
 ## 购买链接
