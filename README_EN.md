@@ -18,6 +18,7 @@
 - [About](#about)
 - [Versions](#versions)
 - [YDP295B001-V1](#ydp295b001-v1)
+- [YDP295B002-V9](#ydp295b002-v9)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -37,6 +38,7 @@ Repo id: `tft-2.95-480x854-mipi-st7701`
 
 | Version | Image | Summary | Full docs |
 | ------- | ----- | ------- | --------- |
+| YDP295B002-V9 | <img alt="YDP295B002-V9" src="./versions/YDP295B002-V9/images/product.png" width="120" /> | [Summary](#ydp295b002-v9) | [Full docs](./versions/YDP295B002-V9/) |
 | YDP295B001-V1 | <img alt="YDP295B001-V1" src="./versions/YDP295B001-V1/images/product.png" width="120" /> | [Summary](#ydp295b001-v1) | [Full docs](./versions/YDP295B001-V1/) |
 
 ---
@@ -46,6 +48,16 @@ Repo id: `tft-2.95-480x854-mipi-st7701`
 <p align="center"><img alt="YDP295B001-V1" src="./versions/YDP295B001-V1/images/product.png" width="320" /></p>
 
 Full product page, datasheets, and examples: [versions/YDP295B001-V1/](./versions/YDP295B001-V1/)
+
+---
+
+## YDP295B002-V9
+
+<p align="center"><img alt="YDP295B002-V9" src="./versions/YDP295B002-V9/images/product.png" width="320" /></p>
+
+**Notes:** MIPI, no touch.
+
+Full product page, datasheets, and examples: [versions/YDP295B002-V9/](./versions/YDP295B002-V9/)
 
 ---
 

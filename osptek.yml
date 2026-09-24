@@ -13,3 +13,7 @@ versions:
     driver: ST7701S
     touch: none
     note: none
+  - id: YDP295B002-V9
+    driver: ST7701S
+    touch: none
+    note: MIPI, no touch

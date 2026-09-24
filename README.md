@@ -18,6 +18,7 @@
 - [说明](#说明)
 - [版本一览](#版本一览)
 - [YDP295B001-V1](#ydp295b001-v1)
+- [YDP295B002-V9](#ydp295b002-v9)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
@@ -37,6 +38,7 @@
 
 | 版本 | 宣传图 | 简介 | 完整资料 |
 | ---- | ------ | ---- | -------- |
+| YDP295B002-V9 | <img alt="YDP295B002-V9" src="./versions/YDP295B002-V9/images/product.png" width="120" /> | [简介](#ydp295b002-v9) | [完整资料](./versions/YDP295B002-V9/) |
 | YDP295B001-V1 | <img alt="YDP295B001-V1" src="./versions/YDP295B001-V1/images/product.png" width="120" /> | [简介](#ydp295b001-v1) | [完整资料](./versions/YDP295B001-V1/) |
 
 ---
@@ -46,6 +48,16 @@
 <p align="center"><img alt="YDP295B001-V1" src="./versions/YDP295B001-V1/images/product.png" width="320" /></p>
 
 完整产品页、规格书与示例：[versions/YDP295B001-V1/](./versions/YDP295B001-V1/)
+
+---
+
+## YDP295B002-V9
+
+<p align="center"><img alt="YDP295B002-V9" src="./versions/YDP295B002-V9/images/product.png" width="320" /></p>
+
+**说明：** MIPI，无触摸。
+
+完整产品页、规格书与示例：[versions/YDP295B002-V9/](./versions/YDP295B002-V9/)
 
 ---
 
